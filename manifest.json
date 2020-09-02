@@ -3,7 +3,10 @@
     "manifest_version": 2,
     "name": "OilScheduleExt",
     "version": "1.0",
-  
+    "icons": {
+      "48": "icon.svg",
+      "96": "icon.svg"
+    },
     "content_scripts": [
       {
         "matches": ["*://194.44.112.6/cgi-bin/timetable.cgi"],
