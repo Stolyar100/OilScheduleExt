@@ -2,14 +2,14 @@
     "description": "Adds a button to set a schedule date range to 1 month from today on the IFNTUOG schedule site",
     "manifest_version": 2,
     "name": "OilScheduleExt",
-    "version": "1.0",
+    "version": "1.1",
     "icons": {
-      "48": "icon.svg",
-      "96": "icon.svg"
+      "48": "icon.png",
+      "96": "icon.png"
     },
     "content_scripts": [
       {
-        "matches": ["*://194.44.112.6/cgi-bin/timetable.cgi"],
+        "matches": ["http://194.44.112.6/cgi-bin/timetable.cgi"],
         "js": ["script.js"]
       }
     ]
