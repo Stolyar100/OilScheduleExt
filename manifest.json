@@ -9,7 +9,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["http://194.44.112.6/cgi-bin/timetable.cgi"],
+        "matches": ["http://194.44.112.6/cgi-bin/*"],
         "js": ["script.js"]
       }
     ]
