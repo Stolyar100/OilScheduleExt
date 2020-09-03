@@ -32,11 +32,14 @@ const saveFieldValues = () => {
     if (teacher.value !== '') {
         localStorage.setItem('teacher_value', teacher.value)
         teacherValue = teacher.value
-        return
+        localStorage.setItem('group_value', null)
+        groupValue = null
     }
     if (group.value !== '') {
         localStorage.setItem('group_value', group.value)
         groupValue = group.value
+        localStorage.setItem('teacher_value', null)
+        teacherValue = null
     }
 }
 
